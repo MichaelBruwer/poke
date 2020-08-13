@@ -3,19 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link stylesheet='css' type='css' href='style.css'>
+    <link rel= 'stylesheet'  href='style.css'>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
     <title>Document</title>
 </head>
 <body >
     <h1>this is a Pokeadex</h1>
     <!-- //ul with class id / js exacutes to ul of id root -->
+    <div className='container'>
     <ul id = 'pokedex'></ul>
+    </div>
 <!-- 
     //buttons that change getlist url to 20 forward or the prev -->
     <button id='next' onclick="getlist('https://pokeapi.co/api/v2/pokemon?offset=20&limit=20')">Next</button>
     <button onclick="getlist('https://pokeapi.co/api/v2/pokemon?offset=0&limit=20')">Back</button>
 
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src='main.js'> </script>
 </body>
 </html>

@@ -1,3 +1,17 @@
-ul {
-text-align: center;
-}
+body {
+    background-color: rgb(94, 255, 0);
+    margin: 0;
+    font-family: sans-serif;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 54px;
+  }
+  .card {
+    padding: 40px;
+    background:#ec407a;
+    text-align: center;
+    color : blue
+  }
+ /* rgb(79, 153, 163) */
